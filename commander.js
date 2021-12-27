@@ -42,4 +42,9 @@ module.exports = [{
   description: '配置cli',
   usage: '配置cli',
   action: require('./action/config')
+}, {
+  command: 'static <port> [cacheAge]',
+  description: '生成前端静态文件',
+  usage: '生成前端静态文件',
+  action: require('./action/static')
 }]
