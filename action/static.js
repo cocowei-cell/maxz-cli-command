@@ -1,4 +1,4 @@
-const { exec } = require('child_process');
+const { exec, execSync } = require('child_process');
 const fs = require('fs');
 const { join, resolve } = require("path");
 const feStatic = require('../templates/fe-static/fe-statis')
@@ -29,7 +29,7 @@ module.exports = async function (port, cacheAge) {
           }
         }
       })
-      console.log("Gen Success");
+      console.log("Gen Success please run mz init to gen build files");
       process.exit(0)
     })
   })

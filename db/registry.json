@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "原来的npm",
+      "registry": "https://registry.npmjs.org/"
+    },
+    {
+      "id": 2,
+      "name": "淘宝的",
+      "registry": "https://registry.npm.taobao.org/"
+    },
+    {
+      "id": 3,
+      "name": "bydance",
+      "registry": "https://bnpm.byted.org/"
+    }
+  ]
+}

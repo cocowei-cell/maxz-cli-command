@@ -47,4 +47,9 @@ module.exports = [{
   description: '生成前端静态文件',
   usage: '生成前端静态文件',
   action: require('./action/static')
+}, {
+  command: 'sr <type> [registry]',
+  description: '配置npm源',
+  usage: '配置npm源',
+  action: require('./action/sr')
 }]

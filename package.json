@@ -1,6 +1,6 @@
 {
   "name": "maxz-cli",
-  "version": "1.3.1",
+  "version": "1.5.1",
   "description": "用于生成nest项目module等",
   "main": "main.js",
   "bin": {
