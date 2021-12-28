@@ -11,7 +11,7 @@ function handleUseCommand(id) {
   console.log(`设置为 ${registry} 成功！`);
   process.exit(0)
 }
-async function handleSetCommand(registry) {
+async function handleSetCommand() {
   const data = registryDb.data
   const lastId = data[data.length - 1].id + 1 // 最后的id
   const { name } = await inquirer.prompt({
