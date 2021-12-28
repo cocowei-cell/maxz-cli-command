@@ -2,7 +2,7 @@
 
 用于本地部署项目到远程服务器
 
-> > Usage: mz 用于生成 nest 项目 module 等
+Usage: mz 用于生成 nest 项目 module 等
 
 Options:
 -V, --version output the version number
@@ -17,4 +17,6 @@ deploy <projectName> <port> 发布项目
 init 初始化项目
 list [projectName] 项目列表
 config <type> <command> 配置 cli
+static <port> [cacheAge] 生成前端静态文件
+sr <type> [registry] 配置 npm 源
 help [command] display help for command
