@@ -8,6 +8,7 @@ const compression = require('compression');
 app.use(compression());
 app.use((_, res, next) => {
   res.removeHeader("X-Powered-By")
+  res.setHeader("Server", "OpenResty")
   next()
 })
 app.use(express.static(path.resolve(__dirname, './public')))
