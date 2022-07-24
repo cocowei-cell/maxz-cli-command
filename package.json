@@ -4,7 +4,7 @@
   "description": "用于生成nest项目module等",
   "main": "main.js",
   "bin": {
-    "mz": "./bin/www.js"
+    "z": "./bin/www.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
